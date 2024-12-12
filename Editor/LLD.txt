@@ -1,0 +1,127 @@
+Flask Note Application - Low-Level Design (LLD)
+
+Overview
+
+    The Flask Note Application is a lightweight application designed to manage user accounts and their notes. It includes core features like user authentication, note creation, note editing, and real-time collaboration using WebSocket. This document outlines the Low-Level Design (LLD) of the application.
+
+Components
+
+    1. Models
+
+        The application uses the following database models:
+
+        User
+
+        Fields:
+
+        id: Integer (Primary Key)
+
+        username: String (Unique, Non-Null)
+
+        password: String (Hashed, Non-Null)
+
+        Note
+
+        Fields:
+
+        id: Integer (Primary Key)
+
+        title: String (Non-Null)
+
+        content: String (Nullable)
+
+        users: Relationship with User (Many-to-Many)
+
+    2. Routes
+
+        The application provides the following routes:
+
+        Authentication Routes
+
+        / (GET): Displays the login page.
+
+        /login (GET/POST): Handles user login.
+
+        /register (GET/POST): Allows users to register.
+
+        /logout (GET): Clears the session and logs out the user.
+
+        Note Management Routes
+
+        /dashboard (GET): Displays all notes available to the logged-in user.
+
+        /create_note (POST): Allows users to create a new note.
+
+        /notes/<int:note_id> (GET): Fetches and displays details of a specific note.
+
+        /save_note/<int:note_id> (POST): Saves updates to a specific note.
+
+        WebSocket Events
+
+        join: Allows a user to join a note for real-time collaboration.
+
+        edit_note: Updates the content of a note in real-time and broadcasts it to all connected users.
+
+    3. Error Handling
+
+        All routes include robust try-except blocks for error handling.
+
+        Proper HTTP status codes and error messages are returned in case of failures (e.g., 401, 404).
+
+        Logs are generated for successful and failed operations.
+
+    4. Logging
+
+        A centralized logging mechanism is implemented using a Logger class.
+
+        Logs are categorized by severity levels (info, error).
+
+        Key events like user authentication, note creation, and WebSocket events are logged.
+
+    5. Session Management
+
+        Flask session is used to store user authentication state (user_id and username).
+
+        Sensitive operations like note editing require a valid session.
+
+    6. Database Operations
+
+        The application uses SQLAlchemy ORM for database interactions.
+
+        All database operations are wrapped in transactions to ensure data integrity.
+
+    7. Real-Time Collaboration
+
+        Flask-SocketIO is used to enable WebSocket communication.
+
+        Users can join a room specific to a note and collaborate on editing the note in real-time.
+
+        Changes are broadcast to all users in the room.
+
+    8. Frontend Integration
+
+        HTML templates are rendered for routes using Jinja2.
+
+        Dynamic content is updated in real-time via WebSocket events.
+
+Workflow
+
+User Authentication:
+
+    Users register with a unique username and password.
+
+    Passwords are hashed for security.
+
+    Logged-in users can access their dashboard and perform note-related operations.
+
+Note Management:
+
+    Users create, view, and edit notes.
+
+    Notes are associated with multiple users for collaboration.
+
+Real-Time Editing:
+
+    Users join a room corresponding to a note.
+
+    Updates to the note are saved and broadcast in real-time.

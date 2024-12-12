@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}Note{% endblock %}
+
+{% block content %}
+
+<head>
+    <title>{{ note.title }}</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<h2>{{ note.title }}</h2>
+<textarea id="note-content" rows="10" cols="50">{{ note.content }}</textarea><br>
+<button id="save-btn">Save</button>
+<script>
+    const socket = io();  // Connect to the server
+    const noteId = {{ note.id }}; // Pass note ID to JavaScript
+
+    // Join the room for this specific note
+    socket.emit('join', { note_id: noteId });
+
+    // Emit the 'edit_note' event when content is changed in the textarea
+    document.getElementById('note-content').addEventListener('input', (e) => {
+        socket.emit('edit_note', {
+            note_id: noteId,
+            content: e.target.value
+        });
+    });
+
+    // Listen for the 'update_note' event and update the textarea with new content
+    socket.on('update_note', (data) => {
+        if (data.note_id === noteId) {
+            document.getElementById('note-content').value = data.content;
+        }
+    });
+
+    // Handle errors
+    socket.on('error', (data) => {
+        alert(data.message);
+    });
+
+    // Save button click handler
+    document.getElementById('save-btn').addEventListener('click', () => {
+        const newContent = document.getElementById('note-content').value;
+        fetch(`/save_note/${noteId}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ content: newContent })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message === "success") {
+                    alert("Note saved successfully!");
+                    window.location.href = '/dashboard';
+                } else {
+                    alert("Failed to save note.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("Error saving note.");
+            });
+    });
+</script>
+{% endblock %}

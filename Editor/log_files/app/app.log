@@ -1,0 +1,1654 @@
+2024-12-12 23:32:07,170 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:32:07,192 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:32:07,244 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:32:07,245 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:32:11,560 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /logout with method GET
+2024-12-12 23:32:11,566 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:32:11,606 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:32:11,606 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:32:14,723 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:32:14,778 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:32:14,778 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:32:20,762 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:32:20,805 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:32:20,805 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:24,904 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:33:24,932 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:24,933 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:25,960 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:33:25,987 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:25,987 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:42,086 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:33:42,123 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:42,123 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:43,977 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:33:43,978 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:33:44,003 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:44,003 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:48,778 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:48,779 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:50,371 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:33:50,398 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:50,398 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:51,997 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:33:51,998 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:33:52,022 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:52,022 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:53,760 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:53,760 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:55,203 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:33:55,239 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:55,240 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:33:56,959 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:33:56,960 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:33:56,982 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:33:56,982 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:15,394 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:15,424 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:15,424 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:19,635 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:35:19,636 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:35:19,658 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:19,659 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:22,215 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:22,247 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:22,247 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:23,982 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:24,009 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:24,010 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:24,143 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:24,165 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:24,165 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:24,411 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:24,438 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:24,439 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:24,501 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:24,521 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:24,521 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:24,659 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:24,685 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:24,685 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:24,904 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:24,932 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:24,932 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:25,058 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:25,081 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:25,081 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:25,198 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:25,227 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:25,227 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:25,339 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:35:25,362 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:25,362 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:28,528 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:35:28,561 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:28,561 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:32,635 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method POST
+2024-12-12 23:35:32,740 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:35:32,763 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:32,763 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:35:36,227 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:35:36,322 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:35:36,369 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:35:36,369 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:36:57,306 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-12 23:36:57,349 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:36:57,349 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:38:14,302 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /apple-touch-icon-precomposed.png with method GET
+2024-12-12 23:38:14,303 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /apple-touch-icon.png with method GET
+2024-12-12 23:38:14,305 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:38:14,303 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:38:14,305 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:38:14,307 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:38:14,307 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:38:14,311 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:38:15,228 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-12 23:38:15,237 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:38:26,489 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:38:34,452 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:38:42,080 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:38:50,735 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method POST
+2024-12-12 23:38:51,090 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:38:57,086 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:38:57,432 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:38:59,792 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-12 23:46:56,985 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-12 23:46:57,008 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:46:57,009 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:46:59,975 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /save_note/1 with method POST
+2024-12-12 23:47:03,665 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:47:03,682 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:47:03,708 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:47:03,708 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:47:04,716 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /logout with method GET
+2024-12-12 23:47:04,727 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:47:04,764 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:47:04,764 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:47:11,085 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:47:11,114 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:47:11,114 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:47:20,792 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:47:20,826 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:47:20,827 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:47:22,819 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:47:22,846 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:47:22,846 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:47:25,756 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:47:25,780 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:47:25,780 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:48:41,426 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:48:41,468 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:48:41,469 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:48:46,537 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:48:46,575 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:48:46,576 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:48:49,165 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:48:49,193 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:48:49,193 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:48:50,946 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:48:50,947 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:48:56,885 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:48:56,923 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:48:56,923 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:48:58,901 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:48:58,902 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:02,041 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:49:02,068 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:02,068 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:04,284 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:04,285 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:08,657 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:49:08,692 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:08,693 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:10,244 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:10,245 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:12,693 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:49:12,720 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:12,721 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:20,715 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method POST
+2024-12-12 23:49:20,818 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:49:20,849 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:20,849 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:49:29,911 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:49:30,009 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:49:30,045 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:49:30,045 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:51:22,394 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:51:22,425 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:51:22,425 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:52:10,787 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:52:10,814 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:52:10,814 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:52:13,531 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:52:13,556 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:52:13,556 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:52:41,143 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:52:41,209 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:52:41,209 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:54:27,667 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /logout with method GET
+2024-12-12 23:54:27,677 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:54:27,706 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:54:27,707 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:54:30,100 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:54:30,126 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:54:30,126 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:01,735 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:55:01,769 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:01,769 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:02,722 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:55:02,752 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:02,752 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:03,643 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:55:03,683 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:03,684 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:04,656 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:55:04,698 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:04,698 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:06,655 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:55:06,686 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:06,686 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:08,182 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:55:08,212 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:08,213 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:08,956 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:55:08,985 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:08,988 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:10,256 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:55:10,257 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:55:10,284 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:10,285 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:11,882 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:11,882 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:17,890 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:55:17,890 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:55:17,907 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:17,907 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:19,958 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:19,959 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:21,535 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-12 23:55:21,564 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:21,564 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:29,565 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:55:29,565 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:55:29,599 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:29,599 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:31,504 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:31,504 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:35,945 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method POST
+2024-12-12 23:55:35,945 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 405 Method Not Allowed: The method is not allowed for the requested URL.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-12-12 23:55:35,971 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:35,971 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:37,460 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:37,460 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:39,092 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-12 23:55:39,130 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:39,130 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:43,938 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method POST
+2024-12-12 23:55:44,036 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:55:44,066 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:44,066 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:55:50,208 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-12 23:55:50,304 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:55:50,337 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:55:50,337 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:57:40,955 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-12 23:57:40,984 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:57:40,984 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:58:06,260 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /logout with method GET
+2024-12-12 23:58:06,265 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:58:06,296 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:58:06,296 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:58:11,572 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:58:11,600 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:58:11,600 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-12 23:59:33,984 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-12 23:59:34,013 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-12 23:59:34,013 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:00:07,688 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-13 00:00:07,721 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:00:07,721 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:00:16,862 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-13 00:00:16,893 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:00:16,893 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:01:06,704 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-13 00:01:06,734 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:01:06,735 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:01:15,150 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-13 00:01:15,180 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:01:15,180 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:01:35,333 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-13 00:01:35,360 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:01:35,361 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:01:55,617 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-13 00:01:55,646 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:01:55,646 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:02:14,718 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-13 00:02:14,753 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:02:14,753 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:02:23,962 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-13 00:02:24,064 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-13 00:02:24,093 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:02:24,093 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:03:43,218 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-13 00:03:43,247 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:03:43,248 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:04:20,647 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /save_note/1 with method POST
+2024-12-13 00:04:22,953 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /save_note/1 with method POST
+2024-12-13 00:04:25,540 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:04:25,540 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:04:27,408 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /logout with method GET
+2024-12-13 00:04:27,422 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-13 00:04:27,455 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:04:27,455 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:04:48,878 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /register with method GET
+2024-12-13 00:04:48,903 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:04:48,904 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:06:16,657 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method GET
+2024-12-13 00:06:16,696 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:06:16,697 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:06:22,395 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-13 00:06:22,503 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:06:22,503 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:06:24,304 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:06:24,305 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:06:28,453 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /login with method POST
+2024-12-13 00:06:28,550 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-13 00:06:28,585 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:06:28,585 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:06:42,279 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-13 00:06:42,307 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:06:42,307 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:06:43,083 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /save_note/1 with method POST
+2024-12-13 00:08:26,023 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-13 00:08:30,114 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-13 00:08:33,257 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to / with method GET
+2024-12-13 00:08:33,267 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-13 00:08:33,298 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:08:33,299 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:08:35,741 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /notes/1 with method GET
+2024-12-13 00:08:36,959 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:08:36,959 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-12-13 00:08:38,298 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /save_note/1 with method POST
+2024-12-13 00:08:39,699 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /dashboard with method GET
+2024-12-13 00:08:39,736 - INFO - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 25 - log_request - Request to /favicon.ico with method GET
+2024-12-13 00:08:39,737 - ERROR - /Users/pankaj.agarwal/Desktop/Notes/Editor/main/app.py - 31 - handle_exception - Exception occurred: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/Users/pankaj.agarwal/Desktop/Notes/env/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
